@@ -1,0 +1,6 @@
+_G.Bin = true
+while _G.Bin do
+    wait()
+game:GetService("ReplicatedStorage").RemoteEvents.RPHouseEvent:FireServer("BusinessName","F-OR")
+game:GetService("ReplicatedStorage").RemoteEvents.RPHouseEvent:FireServer("BusinessName","EVER")
+end
